@@ -46,12 +46,12 @@ with col1:
     if Get_data or st.session_state.Get_state:
         st.session_state.Get_state = True
 
-        api_="AIzaSyC2Sx6kYG146UNyUf3Y-b_bN5KQzlv4PBA"
+        api_="api_key"
 
         # Access youtube API
         api_service_name = 'youtube'
         api_version = 'v3'
-        api_key = "AIzaSyC2Sx6kYG146UNyUf3Y-b_bN5KQzlv4PBA"
+        api_key = "api_key"
 
         youtube = googleapiclient.discovery.build(
             api_service_name, api_version, developerKey=api_key)
