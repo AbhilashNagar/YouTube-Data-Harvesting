@@ -96,7 +96,3 @@
 * **Select a Question** from the dropdown option you can get the **results in Dataframe format or bar chat format**.
 
 
-## Video link
-
-* Click the below Image
-
